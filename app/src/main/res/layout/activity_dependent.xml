@@ -9,7 +9,7 @@
     tools:context="com.fanhl.custombehaviordemo.dependent.DependentActivity">
 
     <TextView
-        android:id="@+id/depentent"
+        android:id="@+id/dependent"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="top|left"
