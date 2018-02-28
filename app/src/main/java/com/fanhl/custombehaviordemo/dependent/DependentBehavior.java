@@ -1,4 +1,4 @@
-package com.fanhl.custombehaviordemo;
+package com.fanhl.custombehaviordemo.dependent;
 
 import android.content.Context;
 import android.support.design.widget.CoordinatorLayout;

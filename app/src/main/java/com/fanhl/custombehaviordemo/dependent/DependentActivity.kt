@@ -1,4 +1,4 @@
-package com.fanhl.custombehaviordemo
+package com.fanhl.custombehaviordemo.dependent
 
 import android.os.Bundle
 import android.support.v4.view.ViewCompat
@@ -7,13 +7,17 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.TextView
+import com.fanhl.custombehaviordemo.R
 
-
-class MainActivity : AppCompatActivity() {
+/**
+ * 现在我们就来根据第一种情况尝试自定义一个Behavior，这里我们实现一个简单的效果，让一个View根据另一个View上下移动。
+首先我们来自定义一个Behavior，起名为DependentBehavior
+ */
+class DependentActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_dependent)
 
         val depentent = findViewById<View>(R.id.depentent) as TextView
         depentent.setOnClickListener { v ->
