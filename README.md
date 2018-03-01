@@ -8,3 +8,4 @@
 
 [Customizing CoordinatorLayout's Behavior](https://www.bignerdranch.com/blog/customizing-coordinatorlayouts-behavior/)
 
+实现滚动时隐藏fab[CoordinatorLayout——自定义Behavior](https://www.jianshu.com/p/5091b928bec2)
